@@ -8,7 +8,7 @@ title: The Rise of Modern Programming Languages
 
 The four languages that made their debut in 1995 were **Java**, **JavaScript**, **PHP** and **Ruby**. Although there wasn't any much fanfare accompanying their release, these languages would eventually grow to become ubiquitous programming tools for most sofware developers. Up until that time, **C** and **C++** were the dominant languages. Despite the fact that these two were very powerful, they were not inherently suited for the world-wide web. In addition they were often considered to be a little complicated and intimidating to novice programmers (especially C++).
 
-Among the four, Java proved to be a runaway success. With its oft quoted slogan of "**Write Once, Run Everywhere**", Java became an intant hit as it was much easier to learn and master (compared to C++). Java also introduced the novel idea of a Virtual Machine (**JVM**), that made it possible to write programs that would be run on different platforms without the need for recompilations.
+Among the four, Java proved to be a runaway success. With its oft quoted slogan of "**Write Once, Run Anywhere**", Java became an intant hit as it was much easier to learn and master (compared to C++). Java also introduced the novel idea of a Virtual Machine (**JVM**), that made it possible to write programs that would be run on different platforms without the need for recompilations.
 
 ### The Need for New Programming Languages
 
