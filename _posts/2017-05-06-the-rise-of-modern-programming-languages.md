@@ -4,9 +4,9 @@ title: The Rise of Modern Programming Languages
 ---
 ### Introduction
 
-1995 was an important year in the programming community. This year, four programming languages were released that would go on to influence the programming world in ways that were not anticipated at the time of their official release. Incidentally, this was also the time that the web was just beginning to make waves and the Internet was on the verge of exploding to the mainstream.
+**1995** was an important year in the computer programming world. This year, four new programming languages were released that would go on to influence the programming community in ways that were not anticipated at the time of their official release. Incidentally, this was also the time that the web was just beginning to make waves and the Internet was on the verge of exploding to the mainstream.
 
-The four languages that made their debut in 1995 were **Java**, **JavaScript**, **PHP** and **Ruby**. Although there wasn't any much fanfare accompanying their release, these languages would eventually grow to become ubiquitous programming tools for most sofware developers. Up until that time, **C** and **C++** were the dominant languages. Despite the fact that these two languages were very powerful, they were not inherently suited for the world-wide web. In addition they were often considered to be a little complicated and intimidating to novice programmers (especially C++).
+The four languages that made their debut in 1995 were **Java**, **JavaScript**, **PHP** and **Ruby**. Although there wasn't any much fanfare accompanying their release, these languages would eventually grow to become ubiquitous programming tools for most sofware developers. Up until that time, **C** and **C++** were the dominant languages. Despite the fact that these two were very powerful, they were not inherently suited for the world-wide web. In addition they were often considered to be a little complicated and intimidating to novice programmers (especially C++).
 
 Among the four, Java proved to be a runaway success. With its oft quoted slogan of "**Write Once, Run Everywhere**", Java became an intant hit as it was much easier to learn and master (compared to C++). Java also introduced the novel idea of a Virtual Machine (**JVM**), that made it possible to write programs that would be run on different platforms without the need for recompilations.
 
@@ -14,7 +14,7 @@ Among the four, Java proved to be a runaway success. With its oft quoted slogan 
 
 Beginning in the 2000s, the programming landscape started changing. More and more computing machines started shipping with multiple processors and even individual processors had more than one core. This shift in computing hardware necessitated the need for programming languages that would take full advantage of the new processor architecture. Languages needed to be able to execute processes concurrently and/or in parallel in order to maximize the potential of the new multi-core processors. **Concurrency** was no longer an after-thought, it needed to be built into the language itself.
 
-In recent years, there has also been a resurgent interest in functional programming, a paradigm that tries to eliminate side effects(link?) as much as possible. As a matter of fact, the occurrence of side effects has proven to be a bane in the modern programmer's life. It usually makes the process of debugging code (the one activity that every programmer dreads) far much harder. In concurrent programming, safety and immutability of data becomes an important issue. Data corruption should be kept at a minimum as much as possible.
+In recent years, there has also been a resurgent interest in **functional programming**, a paradigm that tries to eliminate [side effects](link?) as much as possible. As a matter of fact, the occurrence of side effects has proven to be a bane in the modern programmer's life. It usually makes the process of debugging code (the one activity that every programmer dreads) far much harder. In concurrent programming, **safety** and **immutability** of data becomes an important issue. Data corruption should be kept at a minimum as much as possible.
 
 Last but not least, modern machines have continued to grow very powerful. While in the past, much emphasis was put on the performance speeds of the programs, this focus has recently faded. Instead, much attention has shifted towards programmer productivity. As a result, it pays for a programming language to have neat and elegant syntax, which is easy to write and read. A new developer should be able to pick it up quickly and be up and running with the language in the shortest time possible. One ought to be able to play with the language right from beginning through an interactive loop, commonly known as the **REPL** (Read-Eval-Print Loop), without having to go through tedious setup and compilation processes.
 
@@ -35,11 +35,11 @@ Some of the common features shared by most of the languages are:
 * most of them emphasize ***type safety***
 * most of them have trailing function return types
 * some of them offer easier ways of spawning multiple processes that can be executed in parallel ***asynchronously***
-* some of them offer easier ways for ***inter-process synchronization*** through channels (and similar primitives)
+* some of them offer easier ways for ***inter-process communication*** through channels (or similar primitives)
 * most of them emphasize the ***functional*** style of programming (e.g. pattern matching and lazy evaluation)
 * most of them don't require semi-colons as statement terminators
 * most of them offer a ***REPL***
-* most of them ***statically-typed***
+* most of them are ***statically-typed***
 * most of them have ***clean and elegant syntax***, without much clutter and verbosity
 
 ### Common Modern Programming Languages
@@ -51,7 +51,6 @@ The following are arguably the most 'visible' modern programming languages:
 4. Kotlin
 5. Swift
 
-According to the 2017 Stackoverflow survey (link?), all of the above languages, except Kotlin, were in the top ten.
 The following is an overview of some of the features of each language.
 N/B: I will be using a simple function declaration to compare the five languages.
 
@@ -72,7 +71,7 @@ A function in Scala is declared using the **def** keyword (similar to Python and
 After the closing parenthesis of the function parameter list, we have another colon and an `Int` after it. This is the trailing function return type (more properly called the ***result type*** in Scala).
 Following the function's result type is an equals sign (**=**) and a pair of curly braces that contain the body of the function. The equals sign might appear a little strange to those who are still new to Scala but it makes a lot of sense from a mathematical point of view. The contents within the curly braces may be considered as a mathematical expression that returns (or yields) a result depending on a particular set of input values. The result would then be assigned to whatever is to the left of the equals sign. In other words, when the ***factorial*** function is called, it will '***return***' whatever the result of the **expression** within the curly braces is.
 
-Variables in Scala are declared using either the ***val*** or ***var*** (similar to JavaScript) keywords. Variables declared using the ***val*** keyword are **immutable** and therefore are not reassignable (this is the preferred option in Scala). On the other hand variables declared using the ***var*** keyword can be reassigned.
+Variables in Scala are declared using either the `val` or `var` (similar to JavaScript) keywords. Variables declared using the ***val*** keyword are **immutable** and therefore are not reassignable (this is the preferred option in Scala). On the other hand variables declared using the ***var*** keyword can be reassigned.
 If a variable is given an initial value, then its type doesn't have to be declared explicitly, the interpreter can easily 'infer' its type from the initial value:
 
 	val x = 20
@@ -89,7 +88,7 @@ So for case using *var* above, both the declaration and initialization of the va
 
 ***Concurrency in Scala***:
 
-Scala uses ***Actors*** (Based on the Actor Model proposed by **Carl Hewitt** in the early 1970s) to implement concurrency. The implementation method is heavily influenced by ***Erlang***.
+Scala uses ***Actors*** (Based on the [Actor Model](link) proposed by **Carl Hewitt** in the early 1970s) to implement concurrency. The implementation method is heavily influenced by [Erlang](link).
 A simple example is shown below:
 
 	import scala.actors.Actor
@@ -134,7 +133,7 @@ One of the early adopters of Scala was **Twitter** way back in 2009.
 
 The main drawback for Scala seems to be its steep learning curve, but once you master it, you'll wonder why you lived without it.
 
-One of the authoritative books on Scala is Programming in Scala(Amazon link?) by Martin Odersky, Lex Spoon and Bill Venners. It is worth checking out.
+One of the authoritative books on Scala is [Programming in Scala](Amazon link?) by Martin Odersky, Lex Spoon and Bill Venners. It is worth checking out.
 
 ### 2. Golang (Go)
 
@@ -177,7 +176,7 @@ Go uses goroutines and channels to implement concurrency.
 A simple example is shown below:
 
 	func main() {
-	    c1 : = make(chan string)
+	    c1 := make(chan string)
 	    c2 := make(chan string)
 	    
 	    go func() {
@@ -243,15 +242,15 @@ The following are two links that I have found to be great for a beginner in Go:
 
 ### 3. Rust
 
-[Rust](https://www.rust-lang.org) is a systems programming language that was created by Mozilla Research as a safer and more efficient alternative to C/C++. It was officially released as an open-source project back in 2010. The lead designer of the language was **Graydon Hoare**, who has since moved to **Apple** and is now working as part of the **Swift** (dicussed later) team.
+[Rust](https://www.rust-lang.org) is a systems programming language that was created by Mozilla Research as a safer and more efficient alternative to C/C++. It was officially released as an open-source project back in 2010. The lead designer of the language was **Graydon Hoare**, who has since moved to **Apple** and is now working as part of the **Swift** (discussed later) team.
 
-The stated goals for the Rust programming language are:
+The stated goals of the Rust programming language are:
 
 >* Safety
 * Speed
 * Concurrency
 
-Out of the three, Rust takes **safety** more seriously. It enforces safety through one of its most unique (and tricky) concepts: **ownership**. Here(link) is an excellent article explaining the concept.
+Out of the three, Rust takes **safety** more seriously. It enforces safety through one of its most unique (and tricky) concepts: **ownership**. [Here](link) is an excellent article explaining the concept.
 
 A simple function declaration in Rust looks like this:
 
@@ -278,7 +277,7 @@ The idea of variable bindings allows for pattern matching as shown below:
 
 	let (x, y) = (7, 13);
 	
-In this case, 7 will be bound to ***x*** and 13 to ***y***
+In this case, 7 will be bound to ***x*** and 13 to ***y***.
 
 The type of the variable may be explicitly declared as shown below:
 
@@ -337,9 +336,11 @@ In this case the channel is bound to a tuple of **arity** 2 (Arity refers to the
 
 The initials in **mpsc** stand for "*multiple producer, single consumer*." This means that the '*sending*' end of a channel (in this case, ***tx***), can be ***cloned*** (copies of it can be made), and used by as many threads as you would like to enqueue values; but the '*receiving*' end of the channel (in this case, ***rx***) cannot be cloned, so only a single thread is allowed to extract values from the queue.
 
-After the thread is created, it calculates the *result* and **sends** it over the channel through ***tx***.
+After the thread is created, it calculates the *result* and **sends** it over the channel through ***tx***, as seen below:
 
-Note that in this case we are using a `move` closure when creating the thread. This enforces **ownership** by giving the closure its own **stack frame**.
+	tx.send(result);
+
+Notice that in the example, we are using a `move` closure when creating the thread. This enforces **ownership** by giving the closure its own **stack frame**.
 
 If ***rx*** receives a *result*, the `expect` method will return the value of the result, otherwise it returns an error, `Err(e)`, with the string message: '*could not receive the result*'.
 
@@ -364,9 +365,11 @@ The following code snippet shows how you can use a library crate called `rand`, 
 	
 The ***extern*** keyword indicates that this is an *external* library (***crate***).
 
+Another area that Rust excels in is the support for **FFI** (Foreign Function Interface). This means that it can easily be embedded inside of other languages.
+
 In terms of its learning curve, Rust would lie just below **Scala**.
 
-I should mention that according to the Stack Overflow Developer Survey, Rust has been the most loved programming language for two years in a row (2016 and 2017).
+I should mention that according to the [Stack Overflow Developer Survey](link), Rust has been the most loved programming language for two years in a row (2016 and 2017).
 
 Rust also happens to be my favourite among the five languages discussed in this post.
 
@@ -376,3 +379,86 @@ The following are two great projects that have done in Rust:
 * [Servo](https://servo.org/): A browser engine developed by Mozilla Research in conjunction with Samsung.
 
 If you are interested in learning Rust through interactive examples, you can find such a resource [here](https://rustbyexample.com/).
+
+### 4. Kotlin
+
+Until very recently, [Kotlin](https://kotlinlang.org/) was barely known within the larger programming community. The language, named after **Kotlin Island** near St. Petersburg in Russia, was created by [JetBrains](https://www.jetbrains.com/), the company behind popular products like **IntelliJ IDEA**, **PhpStorm** and **PyCharm**. It was officially released in 2011, and it runs on top of the **Java Virtual Machine** (similar to **Scala**).
+
+Kotlin got a really big boost when at the 2017 edition of [Google I/O](link), it was announced that the language had been given first-class support on the Android mobile platform (becoming only the third language to be accorded such status, after **Java** and **C++**). The news was received with a lot of excitement by the Android developer community. As a result, interest in the language has skyrocketed over the last couple of months following the announcement. Additionally, this might be considered a strategic move by Google as it has been embroiled in a [legal tussle](link) with Oracle over the use of certain Java Classes for Android development.
+
+One of the stated goals of Kotlin is to be fully interoperable with Java and run just as fast as Java native code.
+
+A simple function declaration in Kotlin looks like this:
+
+	fun factorial(x: Int): Int {
+	
+	       // The body of the function goes here...
+	
+	}
+	
+This code block looks very similar to the Scala code shown previously, and therefore it doesn't require much explanation. The only thing to note here is that in Kotlin, a function is declared using the keyword `fun`.
+In this case, the function takes one argument of type `Int` and returns an `Int` as well.
+
+Just like in Scala, variables in Kotlin are declared using either `val` or `var` keywords, as shown below:
+
+	val x: Int = 3
+	var y = 7
+	
+In this case, ***x*** is an immutable variable of type `Int`, while ***y*** is mutable. The type of ***y*** is inferred as `Int`.
+
+***Concurrency in Kotlin***:
+
+Compared to the three languages discussed above, I consider the implementation of concurrency in Kotlin to be the least robust.
+
+Kotlin uses ***coroutines*** (although the last time I checked, it was still in the experimental phase) to implement concurrency. It applies the concept of ***suspension***, which means that computations can be suspended without blocking a running thread.
+
+The list below shows some good Kotlin resources for further reading:
+ 
+>* [Kotlin in Action](link), a book by two core Kotlin developers at JetBrains.
+* [Kotlin for Android Developers](link) by Antonio Leiva.
+* Kotlin's own documentation which can be downloaded as a [PDF](link) file.
+
+[Here](link) is an excellent article on why you should totally switch to Kotlin, according to one developer who is thrilled by the language.
+
+For strategies on how to apply Kotlin to existing Java code, [here](link) is a post that might be of great help.
+
+### 5. Swift
+
+Created at Apple, [Swift](https://swift.org/) is meant to be a safer and more concise alternative to ***Objective-C*** for App development in the Apple ecosystem. The language was introduced at Apple's Worldwide Developers Conference in 2014, and released as an open-source project a year later. Its lead designer was Chris Lattner (who also happens to be one of the original authors of the [LLVM](link) project).
+
+Most of Swift code looks very similar to Rust code, with minor differences.
+
+A simple function declaration in Swift is wrtten as shown below:
+
+	func factorial(x: Int) -> Int {
+	
+	        // The body of the function goes here...
+	
+	}
+	
+Again, this should look very familiar by now. A function in Swift is declared using the keyword `func` (similar to **Go**). In this particular instance, the function has one argument of type `Int` and has an `Int` as its return type.
+
+Swift makes a clear distinction between immutable and mutable variables. Immutable variables are called ***constants*** while their mutable counterparts are just called ***variables***.
+
+Constants are declared using the `let` keyword while variables are declared using the `var` keyword. A simple illustration is shown below:
+
+	let str: String = "Welcome to Swift Programming"
+	var x = 10
+	
+The first line declares a constant ***str*** of type `String`, while the second line declares a variable ***x*** whose type is inferred as `Int`.
+
+***Concurrency in Swift***:
+
+Unfortunately, Swift has been very slow in adopting language-level concurrency features (although there seems to be some progress beginning from Swift 3).
+
+Perhaps the most iconic feature of Swift is the availability of ***Swift Playgrounds***, which offers some kind of a sandbox within which Swift code can be executed '*on-the-fly*'. Even more interesting is the fact that the Playgrounds work on iPads as well!
+
+The only great resource that I have found for learning Swift is the free manual offered by Apple, which can be downloaded as a [PDF](link) file. This document is often known as '**The Swift Programming Language**'.
+
+### Conclusion
+
+This relatively long post has attempted to present a broad overview of some of the most common modern programming languages. My main aim has been to give a comprehensive survey of the modern programming landscape, and the languages that are shaping it, for better or worse. 
+
+It should be noted clearly that I am not a language design expert, nor do I claim to be some programming guru.
+
+My deepest hope is that after reading this article, you will be motivated to explore the languages more and find out how they might help with your own projects.
