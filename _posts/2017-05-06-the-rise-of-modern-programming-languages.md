@@ -12,9 +12,9 @@ Among the four, Java proved to be a runaway success. With its oft quoted slogan 
 
 ### The Need for New Programming Languages
 
-Beginning in the 2000s, the programming landscape started changing. More and more computing machines started shipping with multiple processors and even individual processors had more than one core. This shift in computing hardware necessitated the need for programming languages that would take full advantage of the new processor architecture. Languages needed to be able to execute processes concurrently and/or in parallel in order to maximize the potential of the new multi-core processors. **Concurrency** was no longer an after-thought, it needed to be built into the language itself.
+Beginning in the 2000s, the programming landscape started shifting. More and more computing machines started shipping with multiple processors and even individual processors had more than one core. This shift in computing hardware necessitated the need for programming languages that would take full advantage of the new processor architecture. Languages needed to be able to execute processes concurrently and/or in parallel in order to maximize the potential of the new multi-core processors. **Concurrency** was no longer an after-thought, it needed to be built into the language itself.
 
-In recent years, there has also been a resurgent interest in **functional programming**, a paradigm that tries to eliminate [side effects](link?) as much as possible. As a matter of fact, the occurrence of side effects has proven to be a bane in the modern programmer's life. It usually makes the process of debugging code (the one activity that every programmer dreads) far much harder. In concurrent programming, **safety** and **immutability** of data becomes an important issue. Data corruption should be kept at a minimum as much as possible.
+In recent years, there has also been a resurgent interest in [functional programming](https://en.wikipedia.org/wiki/Functional_programming), a paradigm that tries to eliminate [side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science)) as much as possible. As a matter of fact, the occurrence of side effects has proven to be a bane in the modern programmer's life. It usually makes the process of debugging code (the one activity that every programmer dreads) far much harder. In concurrent programming, **safety** and **immutability** of data becomes an important issue. Data corruption should be kept at a minimum as much as possible.
 
 Last but not least, modern machines have continued to grow very powerful. While in the past, much emphasis was put on the performance speeds of the programs, this focus has recently faded. Instead, much attention has shifted towards programmer productivity. As a result, it pays for a programming language to have neat and elegant syntax, which is easy to write and read. A new developer should be able to pick it up quickly and be up and running with the language in the shortest time possible. One ought to be able to play with the language right from beginning through an interactive loop, commonly known as the **REPL** (Read-Eval-Print Loop), without having to go through tedious setup and compilation processes.
 
@@ -88,7 +88,7 @@ So for case using *var* above, both the declaration and initialization of the va
 
 ***Concurrency in Scala***:
 
-Scala uses ***Actors*** (Based on the [Actor Model](link) proposed by **Carl Hewitt** in the early 1970s) to implement concurrency. The implementation method is heavily influenced by [Erlang](link).
+Scala uses ***Actors*** (Based on the [Actor Model](https://en.wikipedia.org/wiki/Actor_model) proposed by **Carl Hewitt** in the early 1970s) to implement concurrency. The implementation method is heavily influenced by [Erlang](https://www.erlang.org/).
 A simple example is shown below:
 
 	import scala.actors.Actor
@@ -133,7 +133,7 @@ One of the early adopters of Scala was **Twitter** way back in 2009.
 
 The main drawback for Scala seems to be its steep learning curve, but once you master it, you'll wonder why you lived without it.
 
-One of the authoritative books on Scala is [Programming in Scala](Amazon link?) by Martin Odersky, Lex Spoon and Bill Venners. It is worth checking out.
+One of the authoritative books on Scala is [Programming in Scala](https://www.amazon.com/Programming-Scala-Comprehensive-Step-Step/dp/0981531644) by Martin Odersky, Lex Spoon and Bill Venners. It is worth checking out.
 
 ### 2. Golang (Go)
 
@@ -233,7 +233,7 @@ The code snippet above can be interpreted as:
 The **select** block picks the first channel that is ready and receives a message from it. If more than one of the channels are ready, then it randomly selects which one to receive from.
 If none of the channels is ready, the statement waits until a channel becomes available (a process commonly known as ***blocking***). But if a *default* case is provided, then it will be executed instead.
 
-The most famous project implemented using Go is perhaps **Docker**, the software technology for creating *containers*.
+The most famous project implemented using Go is perhaps [Docker](https://www.docker.com/), the software technology for creating *containers*.
 
 The following are two links that I have found to be great for a beginner in Go:
 
@@ -250,7 +250,7 @@ The stated goals of the Rust programming language are:
 * Speed
 * Concurrency
 
-Out of the three, Rust takes **safety** more seriously. It enforces safety through one of its most unique (and tricky) concepts: **ownership**. [Here](link) is an excellent article explaining the concept.
+Out of the three, Rust takes **safety** more seriously. It enforces safety through one of its most unique (and tricky) concepts: **ownership**. [Here](https://chrismorgan.info/blog/rust-ownership-the-hard-way.html) is an excellent article explaining the concept.
 
 A simple function declaration in Rust looks like this:
 
@@ -369,7 +369,7 @@ Another area that Rust excels in is the support for **FFI** (Foreign Function In
 
 In terms of its learning curve, Rust would lie just below **Scala**.
 
-I should mention that according to the [Stack Overflow Developer Survey](link), Rust has been the most loved programming language for two years in a row (2016 and 2017).
+I should mention that according to the [Stack Overflow Developer Survey](https://insights.stackoverflow.com/survey/2017), Rust has been the most loved programming language for two years in a row (2016 and 2017).
 
 Rust also happens to be my favourite among the five languages discussed in this post.
 
@@ -384,7 +384,7 @@ If you are interested in learning Rust through interactive examples, you can fin
 
 Until very recently, [Kotlin](https://kotlinlang.org/) was barely known within the larger programming community. The language, named after **Kotlin Island** near St. Petersburg in Russia, was created by [JetBrains](https://www.jetbrains.com/), the company behind popular products like **IntelliJ IDEA**, **PhpStorm** and **PyCharm**. It was officially released in 2011, and it runs on top of the **Java Virtual Machine** (similar to **Scala**).
 
-Kotlin got a really big boost when at the 2017 edition of [Google I/O](link), it was announced that the language had been given first-class support on the Android mobile platform (becoming only the third language to be accorded such status, after **Java** and **C++**). The news was received with a lot of excitement by the Android developer community. As a result, interest in the language has skyrocketed over the last couple of months following the announcement. Additionally, this might be considered a strategic move by Google as it has been embroiled in a [legal tussle](link) with Oracle over the use of certain Java Classes for Android development.
+Kotlin got a really big boost when at the 2017 edition of **Google I/O**, it was [announced](https://techcrunch.com/2017/05/17/google-makes-kotlin-a-first-class-language-for-writing-android-apps/) that the language had been given first-class support on the Android mobile platform (becoming only the third language to be accorded such status, after **Java** and **C++**). The news was received with a lot of excitement by the Android developer community. As a result, interest in the language has skyrocketed over the last couple of months following the announcement. Additionally, this might be considered a strategic move by Google as it has been embroiled in a [legal tussle](http://www.reuters.com/article/us-oracle-google-lawsuit-idUSKCN0Q42MG20150730) with Oracle over the use of certain Java Classes for Android development.
 
 One of the stated goals of Kotlin is to be fully interoperable with Java and run just as fast as Java native code.
 
@@ -414,17 +414,17 @@ Kotlin uses ***coroutines*** (although the last time I checked, it was still in 
 
 The list below shows some good Kotlin resources for further reading:
  
->* [Kotlin in Action](link), a book by two core Kotlin developers at JetBrains.
-* [Kotlin for Android Developers](link) by Antonio Leiva.
-* Kotlin's own documentation which can be downloaded as a [PDF](link) file.
+>* [Kotlin in Action](https://www.amazon.com/Kotlin-Action-Dmitry-Jemerov/dp/1617293296), a book by two core Kotlin developers at JetBrains.
+* [Kotlin for Android Developers](https://leanpub.com/kotlin-for-android-developers) by Antonio Leiva.
+* Kotlin's own documentation which can be downloaded as a [PDF](https://kotlinlang.org/docs/kotlin-docs.pdf) file.
 
-[Here](link) is an excellent article on why you should totally switch to Kotlin, according to one developer who is thrilled by the language.
+[Here](https://medium.com/@magnus.chatt/why-you-should-totally-switch-to-kotlin-c7bbde9e10d5) is an excellent article on why you should totally switch to Kotlin, according to one developer who is thrilled by the language.
 
-For strategies on how to apply Kotlin to existing Java code, [here](link) is a post that might be of great help.
+For strategies on how to apply Kotlin to existing Java code, [here](https://medium.com/@enriquelopezmanas/on-strategies-to-apply-kotlin-to-existing-java-code-6317974717ec?imm_mid=0f4065&cmp=em-prog-na-na-newsltr_20170701) is a post that might be of great help.
 
 ### 5. Swift
 
-Created at Apple, [Swift](https://swift.org/) is meant to be a safer and more concise alternative to ***Objective-C*** for App development in the Apple ecosystem. The language was introduced at Apple's Worldwide Developers Conference in 2014, and released as an open-source project a year later. Its lead designer was Chris Lattner (who also happens to be one of the original authors of the [LLVM](link) project).
+Created at Apple, [Swift](https://swift.org/) is meant to be a safer and more concise alternative to ***Objective-C*** for App development in the Apple ecosystem. The language was introduced at Apple's Worldwide Developers Conference in 2014, and released as an open-source project a year later. Its lead designer was Chris Lattner (who also happens to be one of the original authors of the [LLVM](http://llvm.org/) project).
 
 Most of Swift code looks very similar to Rust code, with minor differences.
 
@@ -453,7 +453,7 @@ Unfortunately, Swift has been very slow in adopting language-level concurrency f
 
 Perhaps the most iconic feature of Swift is the availability of ***Swift Playgrounds***, which offers some kind of a sandbox within which Swift code can be executed '*on-the-fly*'. Even more interesting is the fact that the Playgrounds work on iPads as well!
 
-The only great resource that I have found for learning Swift is the free manual offered by Apple, which can be downloaded as a [PDF](link) file. This document is often known as '**The Swift Programming Language**'.
+The only great resource that I have found for learning Swift is the free manual offered by Apple, which can be downloaded as an [ePub](https://swift.org/documentation/TheSwiftProgrammingLanguage(Swift4).epub) file. This document is often known as '**The Swift Programming Language**'.
 
 ### Conclusion
 
