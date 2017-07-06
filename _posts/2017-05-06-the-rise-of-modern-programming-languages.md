@@ -330,7 +330,7 @@ First we begin by importing the standard thread and synchronization (`sync`) lib
 
 A channel is created by calling the `channel()` method from the **std::sync::mpsc** package, as shown below:
 
-	let (tr, rx) = mpsc::channel();
+	let (tx, rx) = mpsc::channel();
 	
 In this case the channel is bound to a tuple of **arity** 2 (Arity refers to the number of arguments an operation takes).
 
