@@ -4,40 +4,40 @@ title: The Rise of Modern Programming Languages
 ---
 ### Introduction
 
-**1995** was an important year in the computer programming world. This year, four new programming languages were released that would go on to influence the programming community in ways that were not anticipated at the time of their official release. Incidentally, this was also the time that the web was just beginning to make waves and the Internet was on the verge of exploding to the mainstream.
+**1995** was an important year in the computer programming world. This year, four new programming languages were released that would go on to influence the entire programming community in ways that were not anticipated at the time of their official announcements. Incidentally, this was also the time that the web was just beginning to make waves and the Internet was on the verge of exploding into the mainstream digital culture.
 
-The four languages that made their debut in 1995 were **Java**, **JavaScript**, **PHP** and **Ruby**. Although there wasn't any much fanfare accompanying their release, these languages would eventually grow to become ubiquitous programming tools for most sofware developers. Up until that time, **C** and **C++** were the dominant languages. Despite the fact that these two were very powerful, they were not inherently suited for the world-wide web. In addition they were often considered to be a little complicated and intimidating to novice programmers (especially C++).
+The four languages that made their debut in 1995 were **Java**, **JavaScript**, **PHP** and **Ruby**. Although there wasn't any much fanfare accompanying their respective releases, these languages would eventually grow to become ubiquitous programming tools to most sofware developers. Up until that time, **C** and **C++** were the dominant languages. Despite the fact that these two were very powerful, they were not inherently suited for the world-wide web. In addition they were often considered to be a little complicated and intimidating to novice programmers (especially C++).
 
 Among the four, Java proved to be a runaway success. With its oft quoted slogan of "**Write Once, Run Anywhere**", Java became an intant hit as it was much easier to learn and master (compared to C++). Java also introduced the novel idea of a Virtual Machine (**JVM**), that made it possible to write programs that would be run on different platforms without the need for recompilations.
 
 ### The Need for New Programming Languages
 
-Beginning in the 2000s, the programming landscape started shifting. More and more computing machines started shipping with multiple processors and even individual processors had more than one core. This shift in computing hardware necessitated the need for programming languages that would take full advantage of the new processor architecture. Languages needed to be able to execute processes concurrently and/or in parallel in order to maximize the potential of the new multi-core processors. **Concurrency** was no longer an after-thought, it needed to be built into the language itself.
+Beginning in the 2000s, the programming landscape started changing. More and more computing machines started shipping with multiple processors and even individual processors had more than one core. This shift in the nature of computing hardware necessitated the need for programming languages that would take full advantage of the new processor architecture. Languages needed to be able to execute processes concurrently and/or in parallel in order to maximize the potential of the new multi-core processors. **Concurrency** was no longer an after-thought, it needed to be built into the language itself.
 
-In recent years, there has also been a resurgent interest in [functional programming](https://en.wikipedia.org/wiki/Functional_programming), a paradigm that tries to eliminate [side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science)) as much as possible. As a matter of fact, the occurrence of side effects has proven to be a bane in the modern programmer's life. It usually makes the process of debugging code (the one activity that every programmer dreads) far much harder. In concurrent programming, **safety** and **immutability** of data becomes an important issue. Data corruption should be kept at a minimum as much as possible.
+In recent years, there has also been a resurgent interest in [functional programming](https://en.wikipedia.org/wiki/Functional_programming), a paradigm that tries to eliminate [side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science)) as much as possible. As a matter of fact, the occurrence of side effects has proven to be a bane in the modern programmer's life. It usually makes the process of debugging code (the one activity that every programmer dreads) far much harder. In a concurrent environment, **safety** and **immutability** of data becomes an important issue. Data corruption should be kept at a minimum as much as possible.
 
-Last but not least, modern machines have continued to grow very powerful. While in the past, much emphasis was put on the performance speeds of the programs, this focus has recently faded. Instead, much attention has shifted towards programmer productivity. As a result, it pays for a programming language to have neat and elegant syntax, which is easy to write and read. A new developer should be able to pick it up quickly and be up and running with the language in the shortest time possible. One ought to be able to play with the language right from beginning through an interactive loop, commonly known as the **REPL** (Read-Eval-Print Loop), without having to go through tedious setup and compilation processes.
+Last but not least, modern machines have continued to grow very powerful. While in the past, much emphasis was put on the performance speeds of programs, this focus has recently faded. Instead, much attention has shifted towards programmer productivity. As a result, it pays for a programming language to have neat and elegant syntax, which is easy to write and read. A new developer should be able to pick it up quickly and be up and running with the language in the shortest time possible. One ought to be able to play with the language right from the beginning through an interactive loop, commonly known as the **REPL** (Read-Eval-Print Loop), without having to go through tedious setup and compilation processes.
 
 ### Teaching an Old Dog New Tricks
 
-In order to stay relevant in the emerging programming landscape, a lot of efforts have been made to update older languages like Java and C++ to fit into the current state of affairs. In Java for example, ***Lambda Expressions*** and the ***Streams API*** were added in the **Java 8** release, and **Java 9** now ships with a REPL. **Multithreading** libraries have also been incorporated into the languages in order to enhance their concurrency abilities. The main drawback for these 'old' languages is that they were never built from the ground up to solve the emerging problems in the modern programming world. Trying to retrofit new features into the languages isn't an elegant solution either.
+In order to stay relevant in the emerging programming landscape, a lot of efforts have been made to update older languages like Java and C++ to fit into the current state of affairs. In Java for example, ***Lambda Expressions*** and the ***Streams API*** were added in the **Java 8** release, and **Java 9** will now ship with a REPL. **Multithreading** libraries have also been incorporated into the languages in order to enhance their concurrency abilities. The main drawback for these 'old' languages is that they were never built from the ground up to solve the emerging problems in the modern programming world. Trying to retrofit new features into the languages hasn't proved to be an elegant solution either.
 This leaves us with no other choice except to embrace new programming languages that have been designed from the ground up to address some of the thorny issues in modern software engineering.
 
 ### Necessity is the Mother of Invention
 
-Due to the factors discussed above (and many others not mentioned in this article), several programming languages have been invented in order to solve some (if not all) of the problems. I call these languages 'modern programming languages' because all of the them have been released within this century.
+Due to the factors discussed above (and many others not mentioned in this article), several programming languages have been invented in order to try and tackle some (if not all) of these problems. I refer to these languages as '**modern**' because all of the them have been released within this century.
 As you will soon realize, most of these new languages have a lot in common. The syntax of some of them look very similar.
 
 Some of the common features shared by most of the languages are:
 
 >* variables are preferred to be ***immutable*** by default
-* type inference
+* type ***inference***
 * most of them emphasize ***type safety***
-* most of them have trailing function return types
+* most of them have ***trailing*** function return types
 * some of them offer easier ways of spawning multiple processes that can be executed in parallel ***asynchronously***
 * some of them offer easier ways for ***inter-process communication*** through channels (or similar primitives)
 * most of them emphasize the ***functional*** style of programming (e.g. pattern matching and lazy evaluation)
-* most of them don't require semi-colons as statement terminators
+* most of them don't ***require*** semi-colons as statement terminators
 * most of them offer a ***REPL***
 * most of them are ***statically-typed***
 * most of them have ***clean and elegant syntax***, without much clutter and verbosity
@@ -51,8 +51,8 @@ The following are arguably the most 'visible' modern programming languages:
 4. Kotlin
 5. Swift
 
-The following is an overview of some of the features of each language.
-N/B: I will be using a simple function declaration to compare the five languages.
+What follows is an overview of some of the main features of each language.
+N/B: I will be using a **simple function declaration** to compare the five languages.
 
 ### 1. Scala
 
@@ -67,22 +67,22 @@ A simple function declaration in Scala is as follows:
 	
 	}
 
-A function in Scala is declared using the **def** keyword (similar to Python and Ruby). This is followed by the name of the function, in this case **factorial**, followed by a list of parameters in a pair of parentheses. Note that the parameter, in this case ***x***, is followed by a colon (**:**) and then its data type (`Int`, for an integer). If there are more than one parameter in the list, then they should be separated by a comma.
+A function in Scala is declared using the `def` keyword (similar to Python and Ruby). This is followed by the name of the function, in this case **factorial**, then a list of parameters in a pair of parentheses. Note that the parameter, in this case ***x***, is followed by a colon (**:**) and then its data type (`Int`, for an integer). If there are more than one parameter in the list, then they should be separated by a comma.
 After the closing parenthesis of the function parameter list, we have another colon and an `Int` after it. This is the trailing function return type (more properly called the ***result type*** in Scala).
 Following the function's result type is an equals sign (**=**) and a pair of curly braces that contain the body of the function. The equals sign might appear a little strange to those who are still new to Scala but it makes a lot of sense from a mathematical point of view. The contents within the curly braces may be considered as a mathematical expression that returns (or yields) a result depending on a particular set of input values. The result would then be assigned to whatever is to the left of the equals sign. In other words, when the ***factorial*** function is called, it will '***return***' whatever the result of the **expression** within the curly braces is.
 
 Variables in Scala are declared using either the `val` or `var` (similar to JavaScript) keywords. Variables declared using the ***val*** keyword are **immutable** and therefore are not reassignable (this is the preferred option in Scala). On the other hand variables declared using the ***var*** keyword can be reassigned.
-If a variable is given an initial value, then its type doesn't have to be declared explicitly, the interpreter can easily 'infer' its type from the initial value:
+If a variable is given an initial value, then its type doesn't have to be declared explicitly, the interpreter can easily 'infer' its type from the initial value. For example:
 
 	val x = 20
 
 In this case the type of '***x***' will be inferred to be an integer (`Int`).
-If a variable has no initial value then its type must be declared explicitly:
+If a variable has no initial value then its type must be declared explicitly, like so:
 
 	var x: Int
 
 An important point to note is that Scala **requires** you to initialize a variable, whether you intent for it to be immutable or not.
-So for case using *var* above, both the declaration and initialization of the variable can be done simultaneously, like so:
+So for the case using *var* above, both the declaration and initialization of the variable can be done simultaneously, like so:
 
 	var x: Int = 20
 
@@ -151,9 +151,9 @@ A simple function declaration in Go looks as follows:
 	 
 	}
 
-A function in Go is declared using the **func** keyword. This is followed by the name of the function and list of parameters in a pair of parentheses. In this case, the factorial function only takes one argument, an integer **x**. The function also '***returns***' an integer, as indicated by the **int** keyword after the closing parenthesis of the argument list. The body of the function is enclosed within a pair of curly braces. Similar to Scala, the function return type comes **after** the name of the function (**trailing return type**), not before, as is the case with C or Java.
+A function in Go is declared using the `func` keyword. This is followed by the name of the function and a list of parameters in a pair of parentheses. In this case, the factorial function only takes one argument, an integer **x**. The function also '***returns***' an integer, as indicated by the `int` keyword after the closing parenthesis of the argument list. The body of the function is enclosed within a pair of curly braces. Similar to Scala, the function return type comes **after** the name of the function (**trailing return type**), not before, as is the case with C or Java.
 
-Variables in Go are declared using the keyword ***var*** like shown below:
+Variables in Go are declared using the keyword `var` like shown below:
 
 	var s string
 	s = "Welcome to Go"
@@ -170,8 +170,8 @@ In this case the Go compiler will infer '***s***' as a `string`.
 
 ***Concurrency in Go***:
 
-As has already mentioned, concurrency is one of the areas that Go shines the most.
-Go uses goroutines and channels to implement concurrency.
+As already mentioned, concurrency is one of the areas in which Go shines the most.
+Go uses *goroutines* and *channels* to implement concurrency.
 
 A simple example is shown below:
 
@@ -208,9 +208,9 @@ A simple example is shown below:
 	    fmt.Scanln(&input)
 	}
 
-A **goroutine** is declared using the **go** keyword. Goroutines are thread-like entities that can be executed concurrently. Goroutines communicate through **channels**.
+A **goroutine** is declared using the `go` keyword. Goroutines are thread-like entities that can be executed concurrently. Goroutines communicate through **channels**.
 
-The channel type is indicated by the keyword **chan** followed by the type of the 'traffic' that the channel will handle, as shown below:
+The channel type is indicated by the keyword `chan` followed by the type of the 'traffic' that the channel will handle, as shown below:
 
 	c1 := make(chan string)
 
@@ -262,11 +262,11 @@ A simple function declaration in Rust looks like this:
 	
 By now, I am sure that you can tell what is going on in the code snippet above.
 
-A function in Rust is declared using the keyword **fn**. This is followed by the name of the function and a list of arguments within a pair of parentheses. For the case above, we only have one argument, **x**, which is a 32-bit signed `integer` number. Note that the type of the function argument must be declared; and if there more than one arguments, they should be separated by commas. 
+A function in Rust is declared using the keyword `fn`. This is followed by the name of the function and a list of arguments within a pair of parentheses. For the case above, we only have one argument, **x**, which is a 32-bit signed `integer` number. Note that the type of the function argument must be declared; and if there more than one arguments, they should be separated by commas. 
 
 The function returns another 32-bit signed integer number, as indicated by the right arrow operator (**->**) and `i32` after it.
 
-Variables in Rust are immutable by default (safety is taken very seriously in Rust!), and they are declared using the keyword '***let***', as shown below:
+Variables in Rust are **immutable** by default (safety is taken very seriously in Rust!), and they are declared using the keyword `let`, as shown below:
 
 	let x = 7;
 	
@@ -283,7 +283,7 @@ The type of the variable may be explicitly declared as shown below:
 
 	let x: i32 = 7;
 	
-If a variable will need to change after its initialization, then we should add the keyword ***mut*** (mutable) like so:
+If a variable will need to change after its initialization, then we should add the keyword `mut` (mutable) like so:
 
 	let mut x = 7;
 	
@@ -344,7 +344,7 @@ Notice that in the example, we are using a `move` closure when creating the thre
 
 If ***rx*** receives a *result*, the `expect` method will return the value of the result, otherwise it returns an error, `Err(e)`, with the string message: '*could not receive the result*'.
 
-Rust's standard synchronization package (**std::sync**) offers two more types that are useful for ensuring safety in a multithreading environment: `Mutex<T>` and `Arc<T>`. In order to use them, they need to be imported as shown below:
+Rust's standard synchronization package (**std::sync**) offers two more types that are useful for ensuring safety in a multithreaded environment: `Mutex<T>` and `Arc<T>`. In order to use them, they need to be imported as shown below:
 
 	use std::sync::Mutex;
 	use std::sync::Arc;
@@ -353,19 +353,19 @@ The above import can also be done using just a single line, like so:
 
 	use std::sync::{Mutex, Arc};
 	
-The ***Mutex*** type offers locks through its `lock` method. This ensures that two threads cannot claim ownership of the same piece of data at the same time.
+The ***Mutex*** type offers **locks** through its `lock` method. This ensures that two threads cannot claim ownership of the same piece of data at the same time.
 
 The initials in **Arc** stand for '*Atomic reference count*'. The ***Arc*** type ensures that sharing immutable data is **threadsafe**. It tries to avoid **data races** between multiple threads.
 
-Finally, Rust offers a robust package manager called **Cargo**. It helps in managing Rust's external code libraries (those that are not part of the standard library), known as '***crates***' by the Rust community.
+Finally, Rust offers a robust package manager called **Cargo**. This helps in managing Rust's external code libraries (those that are not part of its standard library), known as '***crates***' by the Rust community.
 
 The following code snippet shows how you can use a library crate called `rand`, that offers random number functionality:
 
 	extern crate rand;
 	
-The ***extern*** keyword indicates that this is an *external* library (***crate***).
+The `extern` keyword indicates that this is an *external* library (***crate***).
 
-Another area that Rust excels in is the support for **FFI** (Foreign Function Interface). This means that it can easily be embedded inside of other languages.
+Another area that Rust excels in is its support for **FFI** (Foreign Function Interface). This means that it can easily be embedded inside of other languages.
 
 In terms of its learning curve, Rust would lie just below **Scala**.
 
@@ -373,7 +373,7 @@ I should mention that according to the [Stack Overflow Developer Survey](https:/
 
 Rust also happens to be my favourite among the five languages discussed in this post.
 
-The following are two great projects that have done in Rust:
+The following are two great projects that have been done in Rust:
 
 >* [Redox](https://www.redox-os.org/): This is a micro-kernel based OS written entirely in Rust.
 * [Servo](https://servo.org/): A browser engine developed by Mozilla Research in conjunction with Samsung.
@@ -410,7 +410,7 @@ In this case, ***x*** is an immutable variable of type `Int`, while ***y*** is m
 
 Compared to the three languages discussed above, I consider the implementation of concurrency in Kotlin to be the least robust.
 
-Kotlin uses ***coroutines*** (although the last time I checked, it was still in the experimental phase) to implement concurrency. It applies the concept of ***suspension***, which means that computations can be suspended without blocking a running thread.
+Kotlin uses ***coroutines*** to implement concurrency (although the last time I checked, it was still in the experimental phase). It applies the concept of ***suspension***, which means that computations can be suspended without blocking a running thread.
 
 The list below shows some good Kotlin resources for further reading:
  
@@ -418,15 +418,15 @@ The list below shows some good Kotlin resources for further reading:
 * [Kotlin for Android Developers](https://leanpub.com/kotlin-for-android-developers) by Antonio Leiva.
 * Kotlin's own documentation which can be downloaded as a [PDF](https://kotlinlang.org/docs/kotlin-docs.pdf) file.
 
-[Here](https://medium.com/@magnus.chatt/why-you-should-totally-switch-to-kotlin-c7bbde9e10d5) is an excellent article on why you should totally switch to Kotlin, according to one developer who is thrilled by the language.
+[Here](https://medium.com/@magnus.chatt/why-you-should-totally-switch-to-kotlin-c7bbde9e10d5) is an excellent article on why you should switch to Kotlin, according to one developer who is thrilled by the language.
 
 For strategies on how to apply Kotlin to existing Java code, [here](https://medium.com/@enriquelopezmanas/on-strategies-to-apply-kotlin-to-existing-java-code-6317974717ec?imm_mid=0f4065&cmp=em-prog-na-na-newsltr_20170701) is a post that might be of great help.
 
 ### 5. Swift
 
-Created at Apple, [Swift](https://swift.org/) is meant to be a safer and more concise alternative to ***Objective-C*** for App development in the Apple ecosystem. The language was introduced at Apple's Worldwide Developers Conference in 2014, and released as an open-source project a year later. Its lead designer was Chris Lattner (who also happens to be one of the original authors of the [LLVM](http://llvm.org/) project).
+Created at Apple, [Swift](https://swift.org/) is meant to be a safer and more concise alternative to ***Objective-C*** for App development within the Apple ecosystem. The language was introduced at Apple's ***Worldwide Developers Conference*** in 2014, and released as an open-source project a year later. Its lead designer was Chris Lattner (who also happens to be one of the original authors of the [LLVM](http://llvm.org/) project).
 
-Most of Swift code looks very similar to Rust code, with minor differences.
+Most of Swift code looks a bit similar to code written in Rust.
 
 A simple function declaration in Swift is wrtten as shown below:
 
@@ -438,7 +438,7 @@ A simple function declaration in Swift is wrtten as shown below:
 	
 Again, this should look very familiar by now. A function in Swift is declared using the keyword `func` (similar to **Go**). In this particular instance, the function has one argument of type `Int` and has an `Int` as its return type.
 
-Swift makes a clear distinction between immutable and mutable variables. Immutable variables are called ***constants*** while their mutable counterparts are just called ***variables***.
+Swift makes a clear distinction between immutable and mutable variables. Immutable variables are called ***constants*** while their mutable counterparts are just called ***variables*** (as expected).
 
 Constants are declared using the `let` keyword while variables are declared using the `var` keyword. A simple illustration is shown below:
 
@@ -459,6 +459,6 @@ The only great resource that I have found for learning Swift is the free manual 
 
 This relatively long post has attempted to present a broad overview of some of the most common modern programming languages. My main aim has been to give a comprehensive survey of the modern programming landscape, and the languages that are shaping it, for better or worse. 
 
-It should be noted clearly that I am not a language design expert, nor do I claim to be some programming guru.
+It should be noted clearly that I am not a language design expert. What I have discussed here should be taken as my own assessment of the respective languages and how they try to solve the problems that were articulated at the beginning of this essay.
 
 My deepest hope is that after reading this article, you will be motivated to explore the languages more and find out how they might help with your own projects.
