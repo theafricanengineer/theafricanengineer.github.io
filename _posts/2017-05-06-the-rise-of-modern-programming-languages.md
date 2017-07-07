@@ -129,7 +129,7 @@ Actors communicate through passing messages to each other. To send a message to 
 
 In this case, a string message, '*scala is awesome*' is send to the **actor** '***simpleActor***'. Note that the actor is always to the left of the bang and the message is always to the right.
 
-When an actor receives a message it tries to find a correponding match within the cases defined in the **receive** block using **pattern matching**. If no matching case is found, the default case (if any), will be executed. For example, in our sample program above, when a message containing a `float` (32.134) was sent to the actor, the default case was executed ("I don't know what this is"). Note the underscore (**_**) for the default case.
+When an actor receives a message it tries to find a corresponding match within the cases defined in the **receive** block using **pattern matching**. If no matching case is found, the default case (if any), will be executed. For example, in our sample program above, when a message containing a `float` (32.134) was sent to the actor, the default case was executed ("I don't know what this is"). Note the underscore (**_**) for the default case.
 
 Every actor has a **mailbox** in which  messages sent to it are queued for further action. When an actor sends a message, it does not block, and when it receives a message, it is not interrupted.
 
@@ -434,7 +434,7 @@ Created at Apple, [Swift](https://swift.org/) is meant to be a safer and more co
 
 Most of Swift code looks a bit similar to code written in Rust.
 
-A simple function declaration in Swift is wrtten as shown below:
+A simple function declaration in Swift is written as shown below:
 
 	func factorial(x: Int) -> Int {
 	
