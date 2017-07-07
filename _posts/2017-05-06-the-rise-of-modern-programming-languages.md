@@ -4,11 +4,17 @@ title: The Rise of Modern Programming Languages
 ---
 ### Introduction
 
-**1995** was an important year in the computer programming world. This year, four new programming languages were released that would go on to influence the entire programming community in ways that were not anticipated at the time of their official announcements. Incidentally, this was also the time that the web was just beginning to make waves and the Internet was on the verge of exploding into the mainstream digital culture.
+The year **1995** was a particularly interesting year in the computer programming world. It is in this year that four new programming languages were released that would go on to influence the global programming community in ways that were not anticipated at the time of their official announcements. Incidentally, this was also the time that the web was just beginning to make waves and the Internet was on the verge of exploding into the mainstream digital culture.
 
 The four languages that made their debut in 1995 were **Java**, **JavaScript**, **PHP** and **Ruby**. Although there wasn't any much fanfare accompanying their respective releases, these languages would eventually grow to become ubiquitous programming tools to most sofware developers. Up until that time, **C** and **C++** were the dominant languages. Despite the fact that these two were very powerful, they were not inherently suited for the world-wide web. In addition they were often considered to be a little complicated and intimidating to novice programmers (especially C++).
 
-Among the four, Java proved to be a runaway success. With its oft quoted slogan of "**Write Once, Run Anywhere**", Java became an intant hit as it was much easier to learn and master (compared to C++). Java also introduced the novel idea of a Virtual Machine (**JVM**), that made it possible to write programs that would be run on different platforms without the need for recompilations.
+Among the four, **Java** proved to be a runaway success. With its oft quoted slogan of "**Write Once, Run Anywhere**", Java became an instant hit as it was much easier to learn and master (compared to C++). Java also introduced the novel idea of a Virtual Machine (**JVM**), that made it possible to write programs that would be run on different platforms without the need for recompilations.
+
+In recent years, **JavaScript** has displaced Java as the [top](https://insights.stackoverflow.com/survey/2017) programming language in the world. The steady rise of JavaScript has largely been attributed to the introduction of [Node.js](https://nodejs.org/en/), a technology that has made it possible for JavaScript to be run on the **server-side**.
+
+**PHP** became a dominant force in the Web Programming sphere, especially in combination with other popular open-source technologies like **Linux**, **Apache** and **MySQL**. Together, they formed what has commonly been referred to as the **LAMP** stack.
+
+**Ruby** became famous among web developers after the release of the insanely popular [Ruby on Rails](http://rubyonrails.org/) web framework in 2005 by the Danish programmer **David Heinemeier Hansson** (DHH).
 
 ### The Need for New Programming Languages
 
