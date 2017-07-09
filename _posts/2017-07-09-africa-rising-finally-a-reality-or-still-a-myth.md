@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Africa Rising: Finally A Reality Or Still A Myth?
+title: Africa Rising Finally A Reality Or Still A Myth
 ---
 Not so long ago Mark Zuckerberg, the CEO of Facebook, the social media giant, took his [first trip](http://money.cnn.com/2016/08/30/technology/facebook-mark-zuckerberg-africa-nigeria-lagos/) to Sub-Saharan Africa, making surprise visits to Nigeria and Kenya. His maiden African tour has been attributed to the rising economic fortunes of the continent and perceived technological revolution. For the last couple of years, Africa has been seen as an economic ‘rising star’ and this has led to the World’s sudden attention towards the continent.
 
