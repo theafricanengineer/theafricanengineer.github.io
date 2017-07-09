@@ -468,3 +468,6 @@ This relatively long post has attempted to present a broad overview of some of t
 It should be noted clearly that I am not a language design expert. What I have discussed here should be taken as my own assessment of the respective languages and how they try to solve the problems that were articulated at the beginning of this essay.
 
 My deepest hope is that after reading this article, you will be motivated to explore the languages more and find out how they might help with your own projects.
+
+
+N/B: This article was aslo published on Medium. [Here](https://medium.com/@chiedo.chrispine/the-rise-of-modern-programming-languages-c923a2b914fc) is the link to it.
