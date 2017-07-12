@@ -50,7 +50,7 @@ Type inference (or deduction) is a default feature in most modern programming la
  In Python, a range-based `for` loop looks like this:
  
 	for i in range(10):
-	 print(i) 
+	   print(i) 
  
  The output for the code above is:
  
