@@ -40,7 +40,7 @@ Type inference (or deduction) is a default feature in most modern programming la
  	
  Beginning from **C++11**, it is now possible to take advantage of type inference using the `auto` keyword, as shown below:
  
- 		auto x = 1; // x deduced as an integer
+ 	auto x = 1; // x deduced as an integer
  
  Note that for type deduction to work, the variable should be **initialized**.
  
