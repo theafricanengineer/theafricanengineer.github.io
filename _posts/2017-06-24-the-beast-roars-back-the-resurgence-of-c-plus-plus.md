@@ -39,7 +39,7 @@ Type inference (or deduction) is a default feature in most modern programming la
  
  Beginning from **C++11**, it is now possible to take advantage of type inference using the `auto` keyword, as shown below:
  
- 	auto x = 1; // x deduced as an integer
+	auto x = 1; // x deduced as an integer
  
  Note that for type deduction to work, the variable should be **initialized**.
  
@@ -55,31 +55,31 @@ Type inference (or deduction) is a default feature in most modern programming la
  The output for the code above is:
  
 	0
- 	1
- 	2
- 	3
- 	4
- 	5
- 	6
- 	7
- 	8
- 	9
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
  
  In order to achieve a similar result using old C++ code, we would have to write something like this:
  
 	int a[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }; // declare and initialize an array of integers
  	
- 	for ( int i = 0; i < 10; ++i ) {
- 	    cout << a[i] << endl;
- 	}
+	for ( int i = 0; i < 10; ++i ) {
+	     cout << a[i] << endl;
+	}
  	
  Using the range-based `for` loop, the above code can be re-written as shown below:
  
 	int a[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
  	
- 	for ( int i : a ) {
- 	    cout << i << endl;
- 	}
+	for ( int i : a ) {
+	     cout << i << endl;
+	}
  
  Much better and cleaner, don't you think?
  
@@ -96,12 +96,12 @@ Type inference (or deduction) is a default feature in most modern programming la
  	       // Declare and initialize a vector of integers
  	       vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
  	       
- 	       // Declare an iterator and loop through all the vector elements
- 	       for ( vector<int>::iterator it = vi.begin(); it < vi.end(); ++it) {
+	       // Declare an iterator and loop through all the vector elements
+	       for ( vector<int>::iterator it = vi.begin(); it < vi.end(); ++it) {
  	           cout << *it << endl;
- 	       }
+		   }
  	       return 0;
- 	}
+	}
  	
  Below is the second version using the `auto` keyword:
  
@@ -114,12 +114,12 @@ Type inference (or deduction) is a default feature in most modern programming la
  	       // Declare and initialize a vector of integers
  	       vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
  	       
- 	       // Type deduction using auto
- 	       for ( auto it = vi.begin(); it < vi.end(); ++it) {
+	       // Type deduction using auto
+	       for ( auto it = vi.begin(); it < vi.end(); ++it) {
  	           cout << *it << endl;
- 	       }
+		   }
  	       return 0;
- 	}
+	}
  	
  Note that now we no longer have to declare the type of `it` as a vector iterator.
  
@@ -134,25 +134,25 @@ Type inference (or deduction) is a default feature in most modern programming la
  	       // Declare and initialize a vector of integers
  	       vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
  	       
- 	       // Range-based for loop
- 	       for ( auto & i : vi ) {
+	       // Range-based for loop
+	       for ( auto & i : vi ) {
  	           cout << i << endl;
- 	       }
+		   }
  	       return 0;
- 	}
+	}
  	
  The output for the code above will be:
  
 	1
- 	2
- 	3
- 	4
- 	5
- 	6
- 	7
- 	8
- 	9
- 	10
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
  
 #### Auto in Templates
 
