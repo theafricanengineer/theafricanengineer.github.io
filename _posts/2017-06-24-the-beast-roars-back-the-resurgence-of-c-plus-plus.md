@@ -89,7 +89,7 @@ Type inference (or deduction) is a default feature in most modern programming la
  This first version is written in old C++ style.
  
 	#include <iostream>
- 	#include <vector>
+	#include <vector>
  	
 	using namespace std;
  	
