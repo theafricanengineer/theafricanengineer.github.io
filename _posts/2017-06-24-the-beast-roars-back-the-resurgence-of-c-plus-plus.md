@@ -50,7 +50,7 @@ Type inference (or deduction) is a default feature in most modern programming la
  In Python, a range-based `for` loop looks like this:
  
 	for i in range(10):
- 	  print(i) 
+	 print(i) 
  
  The output for the code above is:
  
@@ -99,7 +99,7 @@ Type inference (or deduction) is a default feature in most modern programming la
 		 	       
 		// Declare an iterator and loop through all the vector elements
 		for ( vector<int>::iterator it = vi.begin(); it < vi.end(); ++it) {
-			cout << *it << endl;
+		   cout << *it << endl;
 		}
 		return 0;
 	}
@@ -117,7 +117,7 @@ Type inference (or deduction) is a default feature in most modern programming la
 		 	       
 		// Type deduction using auto
 		for ( auto it = vi.begin(); it < vi.end(); ++it) {
-			cout << *it << endl;
+		   cout << *it << endl;
 		}
 		return 0;
 	}
@@ -137,7 +137,7 @@ Type inference (or deduction) is a default feature in most modern programming la
 		 	       
 		// Range-based for loop
 		for ( auto & i : vi ) {
-			cout << i << endl;
+		   cout << i << endl;
 		}
 		return 0;
 	}
@@ -155,7 +155,7 @@ Type inference (or deduction) is a default feature in most modern programming la
 	9
 	10
  
-#### Auto in Templates
+#### `Auto` in Templates
 
 This is a feature in C++17 that now allows the declaration of non-type template arguments with the keyword `auto`. This makes it possible for template parameters to be deduced at the point of instantiation rather than explicitly specified, as shown below:
 
