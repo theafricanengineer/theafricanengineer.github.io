@@ -1,7 +1,6 @@
 ---
 layout: post
 title: The Beast Roars Back The Resurgence of C++
-tags: default
 ---
 ### Introduction
 Since in inception in 1979 as "**C with Classes**", ***C++*** has grown to become a powerful tool for millions of software developers all over the world. According to a 2015 [survey](https://blog.jetbrains.com/clion/2015/07/infographics-cpp-facts-before-clion/) done by **JetBrains**, there were around **4.4 million** C++ developers all across the globe. Over its long and often tumultuous history, the language has seen its fair share of ups and downs. It has constantly tried to fend off numerous accusations leveled against it, such as the fact that it's an extremely **complex** and **intimidating** language to learn. In recent history, other languages that are perceived to be less complicated and easier to learn have overtaken C++ in popularity within the programming circles. One such language has been **Java**. Right from its announcement in 1995, Java took the programming community by storm, owing to the fact that it was much friendlier to novices. In addition, programs written in Java were meant to run atop the **JVM**, hence making Java programs highly portable, unlike C++ programs.
@@ -35,9 +34,9 @@ Type inference (or deduction) is a default feature in most modern programming la
  
  In 'old' C++ (***pre-C++11***), the type of a variable had to be declared explicitly, like so:
  
- 	int x;      // x declared as an integer
- 	int y = 10; // y declared and initialized at the same time
- 	
+	int x;      // x declared as an integer
+	int y = 10; // y declared and initialized at the same time
+ 
  Beginning from **C++11**, it is now possible to take advantage of type inference using the `auto` keyword, as shown below:
  
  	auto x = 1; // x deduced as an integer
@@ -50,12 +49,12 @@ Type inference (or deduction) is a default feature in most modern programming la
  
  In Python, a range-based `for` loop looks like this:
  
- 	for i in range(10):
+	for i in range(10):
  	    print(i) 
  
  The output for the code above is:
  
- 	0
+	0
  	1
  	2
  	3
@@ -68,7 +67,7 @@ Type inference (or deduction) is a default feature in most modern programming la
  
  In order to achieve a similar result using old C++ code, we would have to write something like this:
  
- 	int a[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }; // declare and initialize an array of integers
+	int a[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }; // declare and initialize an array of integers
  	
  	for ( int i = 0; i < 10; ++i ) {
  	    cout << a[i] << endl;
@@ -76,7 +75,7 @@ Type inference (or deduction) is a default feature in most modern programming la
  	
  Using the range-based `for` loop, the above code can be re-written as shown below:
  
- 	int a[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+	int a[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
  	
  	for ( int i : a ) {
  	    cout << i << endl;
@@ -88,12 +87,12 @@ Type inference (or deduction) is a default feature in most modern programming la
  
  This first version is written in old C++ style.
  
- 	#include <iostream>
+	#include <iostream>
  	#include <vector>
  	
- 	using namespace std;
+	using namespace std;
  	
- 	int main( int argc, char ** argv ) {
+	int main( int argc, char ** argv ) {
  	       // Declare and initialize a vector of integers
  	       vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
  	       
@@ -106,12 +105,12 @@ Type inference (or deduction) is a default feature in most modern programming la
  	
  Below is the second version using the `auto` keyword:
  
- 	#include <iostream>
- 	#include <vector>
+	#include <iostream>
+	#include <vector>
  	
- 	using namespace std;
+	using namespace std;
  	
- 	int main( int argc, char ** argv ) {
+	int main( int argc, char ** argv ) {
  	       // Declare and initialize a vector of integers
  	       vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
  	       
@@ -126,12 +125,12 @@ Type inference (or deduction) is a default feature in most modern programming la
  
  The third version is even much shorter and concise. Here, we employ the range-based `for` loop:
  
- 	#include <iostream>
- 	#include <vector>
+	#include <iostream>
+	#include <vector>
  	
- 	using namespace std;
+	using namespace std;
  	
- 	int main( int argc, char ** argv ) {
+	int main( int argc, char ** argv ) {
  	       // Declare and initialize a vector of integers
  	       vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
  	       
@@ -144,7 +143,7 @@ Type inference (or deduction) is a default feature in most modern programming la
  	
  The output for the code above will be:
  
- 	1
+	1
  	2
  	3
  	4
