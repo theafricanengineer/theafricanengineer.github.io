@@ -50,7 +50,7 @@ Type inference (or deduction) is a default feature in most modern programming la
  In Python, a range-based `for` loop looks like this:
  
 	for i in range(10):
- 	    print(i) 
+ 	  print(i) 
  
  The output for the code above is:
  
@@ -67,7 +67,8 @@ Type inference (or deduction) is a default feature in most modern programming la
  
  In order to achieve a similar result using old C++ code, we would have to write something like this:
  
-	int a[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }; // declare and initialize an array of integers
+	// declare and initialize an array of integers
+	int a[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
  	
 	for ( int i = 0; i < 10; ++i ) {
 	     cout << a[i] << endl;
@@ -93,14 +94,14 @@ Type inference (or deduction) is a default feature in most modern programming la
 	using namespace std;
  	
 	int main( int argc, char ** argv ) {
- 	       // Declare and initialize a vector of integers
- 	       vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
- 	       
-	       // Declare an iterator and loop through all the vector elements
-	       for ( vector<int>::iterator it = vi.begin(); it < vi.end(); ++it) {
- 	           cout << *it << endl;
-		   }
- 	       return 0;
+		// Declare and initialize a vector of integers
+		vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+		 	       
+		// Declare an iterator and loop through all the vector elements
+		for ( vector<int>::iterator it = vi.begin(); it < vi.end(); ++it) {
+			cout << *it << endl;
+		}
+		return 0;
 	}
  	
  Below is the second version using the `auto` keyword:
@@ -111,14 +112,14 @@ Type inference (or deduction) is a default feature in most modern programming la
 	using namespace std;
  	
 	int main( int argc, char ** argv ) {
- 	       // Declare and initialize a vector of integers
- 	       vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
- 	       
-	       // Type deduction using auto
-	       for ( auto it = vi.begin(); it < vi.end(); ++it) {
- 	           cout << *it << endl;
-		   }
- 	       return 0;
+		// Declare and initialize a vector of integers
+		vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+		 	       
+		// Type deduction using auto
+		for ( auto it = vi.begin(); it < vi.end(); ++it) {
+			cout << *it << endl;
+		}
+		return 0;
 	}
  	
  Note that now we no longer have to declare the type of `it` as a vector iterator.
@@ -131,14 +132,14 @@ Type inference (or deduction) is a default feature in most modern programming la
 	using namespace std;
  	
 	int main( int argc, char ** argv ) {
- 	       // Declare and initialize a vector of integers
- 	       vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
- 	       
-	       // Range-based for loop
-	       for ( auto & i : vi ) {
- 	           cout << i << endl;
-		   }
- 	       return 0;
+		// Declare and initialize a vector of integers
+		vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+		 	       
+		// Range-based for loop
+		for ( auto & i : vi ) {
+			cout << i << endl;
+		}
+		return 0;
 	}
  	
  The output for the code above will be:
