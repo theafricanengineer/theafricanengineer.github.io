@@ -53,9 +53,11 @@ So, how can colleges impart these skills to students now, in preparation for 202
 
 Going by the two lists above, it's very clear that institutions of higher learning will have to rethink their teaching strategies in order to align themselves with the job market requirements. It's no longer business as usual.
 
-#### The African Perspective
+#### The African Scenario
 
-Unfortunately, in most of the University campuses across Africa, things are still done the 'old' way. Students are expected to attend very **uninspiring lectures**, do assignments and CATs, and then sit for the **end-of-semester exams** (which are usually **recycled** because the professors have NO TIME to set fresh questions). This rigid routine is repeated every other semester for the next four years of the students' life in campus. The lecturers use very **outdated curricula** that they can't even remember when they were last revised. 
+Since Times Higher Education (THE) - a UK-based firm focused on higher education started releasing its rankings of African research universities in 2015, the top positions have constantly been [dominated](https://qz.com/449143/more-than-half-of-africas-top-research-universities-are-in-south-africa/) by South African institutions. Out of the top five in the 2015's pilot [ranking](https://www.timeshighereducation.com/news/south-african-institutions-top-rankings-pilot), four were from South Africa, with the University of Cape Town ([UCT](https://www.uct.ac.za)) leading the pack.
+
+In most of the other University campuses across the rest of Sub-Saharan Africa (SSA), things are still done the 'old' way. Students are expected to attend very **uninspiring lectures**, do assignments and CATs, and then sit for the **end-of-semester exams** (which are usually **recycled** because the professors have NO TIME to set fresh questions). This rigid routine is repeated every other semester for the next four years of the students' life in campus. The lecturers use very **outdated curricula** that they can't even remember when they were last revised. 
 
 Instead of developing **critical thinking skills**, students have mastered the art of **rote learning** and **cramming** for exams. They have become incredibly **obssessed with grades**, at the expense of genuine acquisition of **knowledge** and skills. This has inevitably led to a situation where after spending four years in college, a university graduate is not able to thrive in the real job market. Most often, companies are forced to **retrain** such graduates in order for them to undertake any real projects.
 
@@ -77,7 +79,7 @@ In order to foster these skills, colleges across Africa will have to adopt a new
 
 There should be a shift away from rote learning and the **traditional lecture method** where a professor stands in front of a class and 'delivers' knowledge to a **passive audience** of students who silently wish they would rather be somewhere else. Colleges should embrace **project-based learning** where students are actively engaged through **stimulating** project activities that are accomplished through **collaboration** and **teamwork**. During project team meetings, students should be encouraged to participate in **constructive criticisms** and **arguments**, in order to improve their communication skills. Classes should be **small** enough to allow for closer interactions between professors ans students. 
 
-University lecturers should be allowed to **experiment** with different **methods** and **styles** of **knowledge delivery**, and not be forced to 'stick to the syllabus guidelines'. It should never be mandated that the ONLY way to assess a student's ability is through assignments, CATs and an exam at the end of the semester. If a professor thinks that his students will be better assessed through projects and other **non-conventional methods**, he should have it his way. After all, the professor is the one who knows what he wants to achieve by the end of the course, right? Here is a great quote from [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman), the reknowned American physicist and one of the most famous professors of all time (emphasis is mine):
+University lecturers should be allowed to **experiment** with different **methods** and **styles** of **knowledge delivery**, and not be forced to '**stick to the syllabus guidelines**'. It should never be mandated that the ONLY way to assess a student's ability is through assignments, CATs and an exam at the end of the semester. If a professor thinks that his students will be better assessed through projects and other **non-conventional methods**, he should have it his way. After all, the professor is the one who knows what he wants to achieve by the end of the course, right? Here is a great quote from [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman), the reknowned American physicist and one of the most famous professors of all time (emphasis is mine):
 
 >"First, figure out **WHY** you want the students to learn the subject and **WHAT** you want them to **KNOW**, and the **METHOD** will result more or less by **COMMON SENSE**."
 
@@ -119,7 +121,7 @@ This is a research institute that was established in 2003 by the South African p
 
 **African University of Science and Technology ([AUST](https://www.aust.edu.ng))**
 
-This is a private research university that was established in 2007 in Abuja, Nigeria by the Nelson Mandela Institution (NMI) aimed at bringing the highest level of technical learning facilities to Africa. 
+This is a private research university that was established in 2007 in Abuja, Nigeria by the **Nelson Mandela Institution** (NMI) aimed at bringing the highest level of technical learning facilities to Africa. 
 
 **Nelson Mandela African Institute of Science and Technology ([NM-AIST](https://nm-aist.ac.tz))**
 
