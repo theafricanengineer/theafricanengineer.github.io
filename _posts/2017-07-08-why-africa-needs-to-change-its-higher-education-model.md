@@ -8,7 +8,7 @@ Perhaps the best example of the correlation between a country's economic might a
 
 In more recent history, countries like Israel, India, Singapore and South Korea have blazed the trail of higher education. Through institutions like the **Technion - Israel Institute of Technology**, **National University of Singapore**, **Korean Advanced Institute of Science and Technology** (KAIST) and the **Indian Institutes of Technology**, these nations have positioned themselves at the forefront of technologocal research and innovation.
 
-####New Challenges for Institutions of Higher Learning
+#### New Challenges for Institutions of Higher Learning
 
 At the very core, an institution of higher learning has traditionally served two major purposes:
 
@@ -17,7 +17,7 @@ At the very core, an institution of higher learning has traditionally served two
 
 With the rapid rise of online courses through **MOOC** services like [Coursera](link) and [Udacity](link), the first purpose for the existence of the traditional university (**teaching**) is under serious threat. Students don't have to attend formal classes to gain knowledge anymore. Virtually **ALL** courses that are offered in universities can now be easily accessed online by a click of a button.
 
-Back in 2012, **John Hennessy**, Stanford University's president [predicted](link) the death of the lecture hall as more of college education moves online. Why would a student sit through a boring 2-hour lecture given by a professor who sometimes lacks the mastery of the subject matter? Should she attend that CS 101 class taught by lecturer X in lecture hall 205 in a real campus setting OR log on to [CS50.tv](link) and watch the marvelous lecture by **Dr. David Malan**, the famed Harvard Professor? The challenge for colleges now is to convince such a student that choosing the former rather than the latter would be worth their time (and money).
+Some years back**John Hennessy**, Stanford University's president and the 2012 **IEEE Medal of Honor** Recipient, [predicted](http://spectrum.ieee.org/geek-life/profiles/john-l-hennessy-risk-taker) the death of the lecture hall as more of college education moves online. Why would a student sit through a boring 2-hour lecture given by a professor who sometimes lacks the mastery of the subject matter? Should she attend that CS 101 class taught by lecturer X in lecture hall 205 in a real campus setting OR log on to [CS50.tv](http://cs50.tv/2016/fall/) and watch the marvelous lecture by **Dr. David Malan**, the famed Harvard Professor? The challenge for colleges now is to convince such a student that choosing the former rather than the latter would be worth their time (and money).
 
 This basically means that universities may have to start relying more on research and develoment (rather than teaching) in order to remain relevant.
 
@@ -111,11 +111,11 @@ Since the beginning of the new century, a number of institutions of higher learn
 
 **[Ashesi](www.ashesi.edu.gh) University**
 
-Established in 2002 by Patrick Awuah, Ashesi University is a private liberal arts college in Accra, Ghana. One of its stated goals is to bring the American liberal arts college experience to Africa. Since its founding, the university has attracted a lot of attention from within the continent and across the world as well. You can watch an impassioned TEDtalk given by the University's founder, Dr. Awuah, in Arusha, Tanzania [here](link).
+Established in 2002 by Patrick Awuah, Ashesi University is a private liberal arts college in Accra, Ghana. One of its stated goals is to bring the American liberal arts college experience to Africa. Since its founding, the university has attracted a lot of attention from within the continent and across the world as well. You can watch the TED talk given by the University's founder, Dr. Awuah, in Arusha, Tanzania [here](https://www.ted.com/talks/patrick_awuah_on_educating_leaders).
 
 **African Institute for Mathematical Sciences ([AIMS](https://www.aims.ac.za))**
 
-This is a research institute that was established in 2003 by the South African physicist Neil Turok. From its founding in South Africa, the institute has since expanded to Senegal, Ghana and Nigeria. AIMS's flagship offering is a Structured graduate programme in the Mathmatical Sciences. The institute is also running an initiative dubbed [The Next Einstein](https://www.nexteinstein.org), aimed at discovering the next great scientist from Africa. You can watch Professor Turok's TED talk [here](link).
+This is a research institute that was established in 2003 by the South African physicist Neil Turok. From its founding in South Africa, the institute has since expanded to Senegal, Ghana and Nigeria. AIMS's flagship offering is a Structured graduate programme in the Mathmatical Sciences. The institute is also running an initiative dubbed [The Next Einstein](https://www.nexteinstein.org), aimed at discovering the next great scientist from Africa. You can watch Professor Turok's TED talk about the initiative [here](https://www.ted.com/talks/neil_turok_makes_his_ted_prize_wish).
 
 **African University of Science and Technology ([AUST](https://www.aust.edu.ng))**
 
