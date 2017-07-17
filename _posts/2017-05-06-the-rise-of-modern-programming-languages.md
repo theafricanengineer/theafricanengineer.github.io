@@ -470,4 +470,4 @@ It should be noted clearly that I am not a language design expert. What I have d
 My deepest hope is that after reading this article, you will be motivated to explore the languages more and find out how they might help with your own projects.
 
 
-N/B: This article was aslo published on Medium. [Here](https://medium.com/@chiedo.chrispine/the-rise-of-modern-programming-languages-c923a2b914fc) is the link to it.
+N/B: This article was published on Medium and can be read [here](https://medium.com/@chiedo.chrispine/the-rise-of-modern-programming-languages-c923a2b914fc), and on LinkedIn and here is the [link](https://www.linkedin.com/pulse/rise-modern-programming-languages-part-1-chrispine-chiedo).

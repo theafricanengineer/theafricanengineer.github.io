@@ -193,3 +193,5 @@ Just as it is often said that the Lion never sleeps, C++ has never been asleep. 
 #### References:
 * [C++ Today](http://www.oreilly.com/programming/free/c++-today.csp): A tiny free ebook (74 pages) by Jon Kalb and Gasper Azman.
 * [Effective Modern C++](http://shop.oreilly.com/product/0636920033707.do): A book by Scott Meyers.
+
+N/B: This article was published on Medium and can be read [here](https://medium.com/@chiedo.chrispine/the-beast-roars-back-the-resurgence-of-c-928edcd64318), and on LinkedIn and here is the [link](https://www.linkedin.com/pulse/beast-roars-back-resurgence-c-chrispine-chiedo).

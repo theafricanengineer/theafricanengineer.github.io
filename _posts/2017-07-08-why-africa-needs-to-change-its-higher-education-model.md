@@ -2,9 +2,9 @@
 layout: post
 title: Why Africa Needs To Change Its Higher Education Model
 ---
-It is often said that a country's economic might greatly depends on the strength of its institutions of higher learning. This assertion has held true across all the past centuries and it is even truer in this century. The ancient **Greeks** and the **Romans** had their **Academies**. The **British Empire** had its revered Universities of **Oxford** and **Campridge** (Ox-bridge), which are still beacons of higher education up to this day.
+It is often said that a country's economic might greatly depends on the strength of its institutions of higher learning. This assertion has held true across all the past centuries and it is even truer in this century. The ancient **Greeks** and the **Romans** had their **Academies**. The **British Empire** had its revered Universities of **Oxford** and **Cambridge** (Oxbridge), which are still beacons of higher education up to this day.
 
-Perhaps the best example of the correlation between a country's economic might and its higher education is the United States of America. The USA rose to become the most powerful nation on earth, partly because of its unrivalled institutions of higher learning. **Harvard**, **Yale**, **Stanford**, **MIT**, **CMU**, **Princeton** (among many other excellent American universities),  have become an envy of the world. These institutions have led in carrying out cutting-edge **research and development** activities that have sometimes proved to be crucial to their nation's survival. For instance, during the second world war, the **US Department of Defence** did a lot of military research in collaboration with academic institutions like Harvard and MIT.
+Perhaps the best example of the correlation between a country's economic might and its higher education is the United States of America. The USA rose to become the most powerful nation on earth, partly because of its unrivalled institutions of higher learning. **Harvard**, **Yale**, **Stanford**, **MIT**, **CMU**, **Princeton** (among many other excellent American universities),  have become an envy of the world. These institutions have led in carrying out cutting-edge **research and development** activities that have sometimes proved to be crucial to their nation's survival. For instance, during the second world war, the **US Department of Defense** did a lot of military research in collaboration with academic institutions like Harvard and MIT.
 
 In more recent history, countries like Israel, India, Singapore and South Korea have blazed the trail of higher education. Through institutions like the **Technion - Israel Institute of Technology**, **National University of Singapore**, **Korean Advanced Institute of Science and Technology** (KAIST) and the **Indian Institutes of Technology**, these nations have positioned themselves at the forefront of technologocal research and innovation.
 
@@ -19,7 +19,7 @@ With the rapid rise of online courses through **MOOC** services like [Coursera](
 
 Some years back **John Hennessy**, the former Stanford University's president and the 2012 **IEEE Medal of Honor** Recipient, [predicted](http://spectrum.ieee.org/geek-life/profiles/john-l-hennessy-risk-taker) the death of the lecture hall as more of college education moves online. Why would a student sit through a boring 2-hour lecture given by a professor who sometimes lacks the mastery of the subject matter? Should she attend that CS 101 class taught by lecturer X in lecture hall 205 in a real campus setting OR log on to [CS50.tv](http://cs50.tv/2016/fall/) and watch the marvelous lecture by **Dr. David Malan**, the famed Harvard Professor? The challenge for colleges now is to convince such a student that choosing the former rather than the latter would be worth their time (and money).
 
-This basically means that universities may have to start relying more on research and develoment (rather than teaching) in order to remain relevant.
+This basically means that universities may have to start relying more on research and development (rather than teaching) in order to remain relevant.
 
 The other serious challenge for universities is the constant shift in the skills that would be required by the jobs of the future. And to make matters even worse, how can colleges prepare students for jobs that don't even exist yet? 
 
@@ -105,7 +105,7 @@ As already mentioned, **research** is the only area that the traditional univers
 
 African institutions of higher learning will have to encourage their faculty and graduate students to carry out more research and **publish** their findings in **peer-reviewed** journals. Academic institutions should develop closer **collaborations** with industries in order to make sure that what they are teaching is relevant and **in-sync** with the requirements of the industry.
 
-Academic faculty should regularly be given **leaves of absense** to go and work in industries for certain periods of time in order to stay 'in touch' with the real industry. This will in turn help them in carrying out research with the aim of solving real industrial problems, and not just theoritical stuff.
+Academic faculty should regularly be given **leaves of absence** to go and work in industries for certain periods of time in order to stay 'in touch' with the real industry. This will in turn help them in carrying out research with the aim of solving real industrial problems, and not just theoritical stuff.
 
 #### Some Institutions Showing Great Promise
 
@@ -127,6 +127,8 @@ This is a private research university that was established in 2007 in Abuja, Nig
 
 This is another public university affiliated with the Nelson Mandela Institution (NMI) that was established in Arusha, Tanzania in 2010. It is a research intensive institution that specializes in postgraduate and post-doctoral studies in Science, Engineering and Technology (SET).
 
-**Carnegie Mellon University Africa**
+**Carnegie Mellon University-Africa**
 
-[CMU-Africa](https://www.cmu.edu/africa/) is a branch of the Cargenie Mellon University in Pittsburgh, Pennsylvannia, USA. It began in 2012 through a collaboration between the Rwandan government and CMU. It is situated in Kigali, Rwanda and offers two masters programmes in Information Technology (MSIT) and Electrical and Computer Engineering (MSECE). 
+[CMU-Africa](https://www.cmu.edu/africa/) is a branch of the Cargenie Mellon University in Pittsburgh, Pennsylvannia, USA. It began in 2012 through a collaboration between the Rwandan government and CMU. It is situated in Kigali, Rwanda and offers two masters programmes in Information Technology (MSIT) and Electrical and Computer Engineering (MSECE).
+
+N/B: This article was also published on LinkedIn and can be read [here](https://www.linkedin.com/pulse/why-africa-needs-change-its-higher-education-model-chrispine-chiedo).

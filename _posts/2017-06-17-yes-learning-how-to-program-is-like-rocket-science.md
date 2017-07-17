@@ -31,4 +31,4 @@ A little sidebar:
 So, yes learning how to program is like rocket science, and it requires a mind that is adept at abstract thinking. It also applies (or should apply) the rigorous engineering methodologies common in other traditional engineering disciplines. For an interesting perspective about whether programmers should call themselves engineers or not, you may read this piece from [The Atlantic](https://www.theatlantic.com/technology/archive/2015/11/programmers-should-not-call-themselves-engineers/414271/).
 
 
-N/B: This article was also published on Medium. [Here](https://medium.com/@chiedo.chrispine/yes-learning-how-to-program-is-like-rocket-science-a6e68698927b) is the link.
+N/B: This article was published on Medium and you can read it [here](https://medium.com/@chiedo.chrispine/yes-learning-how-to-program-is-like-rocket-science-a6e68698927b), and also on LinkedIn and [here](https://www.linkedin.com/pulse/yes-learning-how-program-like-rocket-science-chrispine-chiedo) is the link.
