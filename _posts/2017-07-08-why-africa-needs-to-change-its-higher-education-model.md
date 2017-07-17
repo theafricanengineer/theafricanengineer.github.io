@@ -129,6 +129,6 @@ This is another public university affiliated with the Nelson Mandela Institution
 
 **Carnegie Mellon University-Africa**
 
-[CMU-Africa](https://www.cmu.edu/africa/) is a branch of the Cargenie Mellon University in Pittsburgh, Pennsylvannia, USA. It began in 2012 through a collaboration between the Rwandan government and CMU. It is situated in Kigali, Rwanda and offers two masters programmes in Information Technology (MSIT) and Electrical and Computer Engineering (MSECE).
+[CMU-Africa](https://www.cmu.edu/africa/) is a branch of the Carnegie Mellon University in Pittsburgh, Pennsylvania, USA. It began in 2012 through a collaboration between the Rwandan government and CMU. It is situated in Kigali, Rwanda and offers two masters programmes in Information Technology (MSIT) and Electrical and Computer Engineering (MSECE).
 
 N/B: This article was also published on LinkedIn and can be read [here](https://www.linkedin.com/pulse/why-africa-needs-change-its-higher-education-model-chrispine-chiedo).
